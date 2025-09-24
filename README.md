@@ -2,13 +2,13 @@ This portfolio website includes:
 
     1.  Complete Pages:
 
-        Home with hero section
+        Home 
 
-        About with skills and profile
+        About 
 
-        Services with pricing
+        Services
 
-        Portfolio with filtering
+        Portfolio
 
         Contact with form validation
 
@@ -36,11 +36,11 @@ This portfolio website includes:
 
     4. Technical Implementation:
 
-        Semantic HTML5 structure
+        HTML5 structure
 
-        CSS3 with Flexbox/Grid for layout
+        CSS3 
 
-        JavaScript for interactivity
+        JavaScript
 
         Form validation
 
