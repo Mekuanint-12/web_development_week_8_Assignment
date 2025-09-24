@@ -85,47 +85,8 @@
         const modalTitle = document.getElementById('modalTitle');
         const modalDescription = document.getElementById('modalDescription');
         const modalLink = document.getElementById('modalLink');
-        
-        // Sample project data (in a real scenario, this would come from a database)
-        const projects = [
-            {
-                title: "E-Commerce Website",
-                description: "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and payment integration.",
-                image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-                link: "#"
-            },
-            {
-                title: "Finance App UI",
-                description: "A mobile banking application design focused on user experience and security. Includes features for account management, transactions, and financial insights.",
-                image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-                link: "#"
-            },
-            {
-                title: "Fitness Tracker App",
-                description: "A cross-platform mobile application for tracking workouts, nutrition, and health metrics. Built with React Native and integrated with wearable devices.",
-                image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-                link: "#"
-            },
-            {
-                title: "Corporate Website",
-                description: "A business website with custom CMS for easy content management. Features responsive design, SEO optimization, and integration with social media platforms.",
-                image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-                link: "#"
-            },
-            {
-                title: "Travel Platform UI",
-                description: "A booking platform design for travel services. Focused on intuitive navigation, visual appeal, and seamless booking experience across devices.",
-                image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-                link: "#"
-            },
-            {
-                title: "Recipe Sharing App",
-                description: "A social cooking application allowing users to share, discover, and rate recipes. Includes features for meal planning and grocery list generation.",
-                image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-                link: "#"
-            }
-        ];
-        
+                
+            
         // Add click event to portfolio items
         portfolioItems.forEach((item, index) => {
             item.addEventListener('click', () => {
